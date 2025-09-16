@@ -1,4 +1,4 @@
--- Dimension tables
+
 CREATE TABLE IF NOT EXISTS dim_store (
     store_id TEXT PRIMARY KEY,
     store_name TEXT,
@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS dim_customer (
     customer_segment TEXT
 );
 
--- Weather dimension
+
 CREATE TABLE IF NOT EXISTS dim_weather (
     weather_id SERIAL PRIMARY KEY,
     store_id TEXT REFERENCES dim_store(store_id),
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS dim_weather (
     wind_speed DOUBLE PRECISION
 );
 
--- Fact table
+
 CREATE TABLE IF NOT EXISTS fact_sales (
     sale_id TEXT PRIMARY KEY,
     sale_date TIMESTAMP,
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS fact_sales (
     weather_id INTEGER REFERENCES dim_weather(weather_id)
 );
 
--- Audit logs
+
 CREATE TABLE IF NOT EXISTS etl_audit (
     id SERIAL PRIMARY KEY,
     run_ts TIMESTAMP DEFAULT now(),
