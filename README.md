@@ -19,4 +19,4 @@ Audit logging: Track ingestion counts and rejected rows in etl_audit.
 
 Analytics-ready: Run queries and visualize insights (e.g., sales vs temperature).
 
-By Anshul Bhilare
+
