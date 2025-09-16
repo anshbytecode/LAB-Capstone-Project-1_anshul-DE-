@@ -1,0 +1,6 @@
+sale_id,sale_date,store_id,store_name,store_city,store_state,lat,lon,customer_id,customer_name,customer_segment,product_id,product_name,category,qty,price,payment_method
+S001,2025-09-01 10:15:00,ST01,SuperMart Pune,Pune,MH,18.5204,73.8567,C001,Anil Kumar,Regular,P001,Milk,Dairy,2,30,Cash
+S002,2025-09-01 11:00:00,ST01,SuperMart Pune,Pune,MH,18.5204,73.8567,C002,Sunita Patil,Premium,P002,Bread,Bakery,1,25,Card
+S003,2025-09-01 12:45:00,ST02,FreshMart Mumbai,Mumbai,MH,19.0760,72.8777,C003,Rahul Singh,Regular,P003,Apple,Fruits,3,50,UPI
+S004,2025-09-01 14:20:00,ST02,FreshMart Mumbai,Mumbai,MH,19.0760,72.8777,C004,Neha Sharma,Student,P004,Notebook,Stationery,5,20,Cash
+S005,2025-09-01 15:00:00,ST03,DailyMart Delhi,Delhi,DL,28.7041,77.1025,C005,Amit Gupta,Premium,P005,Biscuits,Snacks,4,15,Card
